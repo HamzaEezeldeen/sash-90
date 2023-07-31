@@ -1,0 +1,142 @@
+
+Project Name: Sash – HTML Admin & Dashboard Template.
+
+Version : V.9
+
+Updated-date:  22-Apr-2022 
+
+ 
+Updates :- 
+
+		1) Few js files are updated.
+		2) New Pages added.
+		3) Few HTML Pages are updated.
+		4) App Header section updated.
+		5) UI issues fixed.
+
+***********************************************************************************************************************************************************************************************
+
+
+---------------------------------------------------------------------------------------------
+1) Few js files are updated.
+---------------------------------------------------------------------------------------------
+
+	Please replace below js files.
+
+		1. custom.js			root---->(assets/js/)
+
+			1. Updated for Horizontal submenu issue. When refresh the page the horizontal submenu is still in open.	
+			2. Updated for sidemenu responsive issue.		
+
+		2. custom1.js			root---->(assets/js/)
+
+			1. Updated for Horizontal submenu issue. When refresh the page the horizontal submenu is still in open.	
+			2. Updated for sidemenu responsive issue.
+
+		3. themeColors.js		root---->(assets/js/)
+
+		4. sidemenu.js			root---->(assets/plugins/sidemenu)
+
+			1. Updated for sidemenu responsive issue and Horizontal submenu issue.
+
+
+---------------------------------------------------------------------------------------------
+2) New Pages added.
+---------------------------------------------------------------------------------------------
+
+	Added pages are:
+
+		1.landing-page.html
+		2.form-input-spinners.html
+
+	App-sidebar section is updated because two pages are added. Please replace App-sidebar section.
+	
+Step1:- 
+
+	Please include below files for landing page.
+
+		1.landing.js		root---->(assets/js/landing.js)
+		2.company-slider	root---->(assets/plugins/company-slider)
+		3.landing		root---->(assets/images/landing)
+
+Step2:- Please replace complete SCSS folder.
+
+Note: Please run gulp command ("gulp watch") after replacing the SCSS folder.
+
+---------------------------------------------------------------------------------------------
+3) Few HTML Pages are updated.
+---------------------------------------------------------------------------------------------
+
+	Please update below HTML page.
+
+		1. pricing.html
+		2. empty.html (Added switcher icon)
+		3. form-elements.html
+		4. switcher-1.html (Updated for unwanted switcher icon)
+
+---------------------------------------------------------------------------------------------
+4) App Header section updated.
+---------------------------------------------------------------------------------------------
+
+	App header section is updated for search element. For getting search results you have to follow below process.
+
+
+Step1:-	  Please replace app-header section.
+
+Step2:-   Please add bootstrap5-typehead plugin in plugins folder.	root---->(assets/plugins/bootstrap5-typehead)
+
+Step3:-	  Please add typehead.js file.					root---->(assets/js/typehead.js)	
+
+Step4:-	  Please include below files in script section of all HTML pages.	
+
+		<!-- TypeHead js -->
+		<script src="../assets/plugins/bootstrap5-typehead/autocomplete.js"></script>
+   		<script src="../assets/js/typehead.js"></script>	
+
+---------------------------------------------------------------------------------------------
+5) UI issues fixed.
+---------------------------------------------------------------------------------------------
+
+	Please replace complete SCSS folder.				root---->(assets/scss)	
+
+	Please replace below files in css folder :
+
+	  1. dark-style.scss           					root---->(assets/css/dark-style.scss)
+	  3. transparent-style.scss    					root---->(assets/css/transparent-style.scss)
+	  3. skin-modes.scss    					root---->(assets/css/skin-modes.scss)
+
+Note: Please run gulp command ("gulp watch") after replacing the SCSS folder.
+
+Thanking you,
+@spruko.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
